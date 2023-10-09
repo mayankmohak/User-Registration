@@ -8,8 +8,8 @@
 	<package name="default" extends="json-default">
 		<action name="register"
 			class="com.highradiusStruts.action.Action" method="execute">
-			<result name="success" type="json"></result>
-			<result name="error" type="json"></result>
+			<result name="success" type="json" value="success"></result>
+			<result name="error" type="json" value="failure"></result>
 		</action>
 	</package>
 </struts>
